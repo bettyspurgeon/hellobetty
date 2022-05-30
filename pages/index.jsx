@@ -5,13 +5,13 @@ import { iconLinks } from "../information/iconLinks";
 export default function Home() {
   return (
     <>
-      <main className="mx-auto">
+      <main className="mx-auto col-lg-8">
         <div
           className="d-flex flex-column align-items-center flex-lg-row jusitfy-content-center"
           id="content"
         >
           <div className="container-xxl bd-gutter">
-            <div className="text-center">
+            <div className="text-center col-lg-12">
               <h1 className="">Hi, I'm Betty!</h1>
               <p>
                 I am a Full Stack Web Developer living in Luxembourg. I have a

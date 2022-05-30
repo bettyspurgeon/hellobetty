@@ -90,6 +90,7 @@ function MyApp({ Component, pageProps }) {
           footer > p {
             font-size: 0.75rem;
           }
+          
         `}
       </style>
     </>
