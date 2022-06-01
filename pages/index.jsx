@@ -13,7 +13,7 @@ export default function Home() {
         >
           <div className="container-xxl bd-gutter">
             <div className="text-center col-lg-12">
-              <h1 className="">Hi, I'm Betty!</h1>
+              <h1 className="">Hi, I&apos;m Betty!</h1>
               <p>
                 I am a Full Stack Web Developer living in Luxembourg. I have a
                 background in history, classics, and law.
@@ -49,8 +49,7 @@ export default function Home() {
         </div>
       </main>
 
-      <style jsx>{`
-      `}</style>
+      <style jsx>{``}</style>
     </>
   );
 }

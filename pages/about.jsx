@@ -5,7 +5,7 @@ export default function About() {
       <main className="text-center mx-auto mt-5 col-10 col-md-8">
         <div className="d-flex flex-column flex-lg-row">
           <div>
-            <h1>Hello, I'm Betty</h1>
+            <h1>Hello, I&apos;m Betty</h1>
             <h2 className="fs-4 text-secondary">
               I am a Full Stack web developer from Canada living in Luxembourg.
             </h2>
@@ -21,7 +21,9 @@ export default function About() {
                 accordance with the GDPR. I also have an MA in History and a
                 Honours BA in Classics and History
               </p>
-              <p className=""><strong>My Stack (so far):</strong></p>
+              <p className="">
+                <strong>My Stack (so far):</strong>
+              </p>
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -149,7 +151,9 @@ export default function About() {
                   />
                 </svg>
               </div>
-              <p className="mt-2"><strong>Tech I am currently learning:</strong></p>
+              <p className="mt-2">
+                <strong>Tech I am currently learning:</strong>
+              </p>
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
