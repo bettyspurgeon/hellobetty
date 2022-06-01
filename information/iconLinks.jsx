@@ -1,5 +1,6 @@
 export const iconLinks = [
   {
+    key: 0,
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -15,6 +16,7 @@ export const iconLinks = [
     link: "https://github.com/bettyspurgeon",
   },
   {
+    key: 1,
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -30,6 +32,7 @@ export const iconLinks = [
     link: "https://linkedin.com/betty-spurgeon",
   },
   {
+    key: 2,
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
