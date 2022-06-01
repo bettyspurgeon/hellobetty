@@ -1,6 +1,7 @@
 import { MiniNavbar } from "../components/MiniNavbar";
 import { navbarItems } from "../information/navbarItems";
 import { iconLinks } from "../information/iconLinks";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -38,19 +39,17 @@ export default function Home() {
               />
             </div>
           </div>
-          <img src="./computer-memoji.png" alt="" srcset="" />
+          <Image
+            src="/computer-memoji.png"
+            width={300 + "px"}
+            height={300 + "px"}
+            alt=""
+            srcSet=""
+          />
         </div>
       </main>
 
       <style jsx>{`
-        img {
-          height: 15rem;
-        }
-        @media only screen and (min-width: 650px) {
-          img {
-            height: 20rem;
-          }
-        }
       `}</style>
     </>
   );
