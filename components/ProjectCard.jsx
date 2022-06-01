@@ -24,11 +24,10 @@ export const ProjectCard = ({
             {iconLinks[0].icon}
           </a>
           <a
-            className="text-decoration-none"
+            className="text-decoration-none card-link px-2"
             href={liveLink}
             target="_blank"
             rel="noreferrer"
-            className="card-link px-2"
           >
             Live
           </a>

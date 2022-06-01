@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function About() {
   return (
     <>
@@ -6,9 +7,9 @@ export default function About() {
           <div>
             <h1>Hello, I'm Betty</h1>
             <h2 className="fs-4 text-secondary">
-              I'm a Full Stack web developer from Canada living in Luxembourg.
+              I am a Full Stack web developer from Canada living in Luxembourg.
             </h2>
-            <img src="./about-image.png" alt="" />
+            <Image src="./about-image.png" alt="" />
           </div>
           <div className="col-6 mx-auto px-lg-3">
             <div id="bio-container">
