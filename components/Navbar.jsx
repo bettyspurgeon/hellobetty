@@ -3,7 +3,7 @@ export const Navbar = ({ navIcon, navbarContent, icons, copyright }) => {
     <>
       <nav className="navbar navbar-dark navbar-expand-lg sticky-top bg-dark">
         <div className="container-fluid">
-          <a className="navbar-brand" target="_blank" href="/">
+          <a className="navbar-brand" target="_blank" rel="noreferrer" href="/">
             {navIcon} Hello Betty
           </a>
           <button
@@ -35,9 +35,7 @@ export const Navbar = ({ navIcon, navbarContent, icons, copyright }) => {
                 {navbarContent}
               </ul>
               <hr />
-              <div className="text-center d-lg-none">
-                {icons}
-              </div>
+              <div className="text-center d-lg-none">{icons}</div>
               <hr />
               {copyright}
             </div>

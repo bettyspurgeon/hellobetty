@@ -27,6 +27,7 @@ export default function Home() {
                       <a
                         className="text-dark px-2 fs-2"
                         target="_blank"
+                        rel="noreferrer"
                         href={icon.link}
                       >
                         {icon.icon}

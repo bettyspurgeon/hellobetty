@@ -15,13 +15,19 @@ export const ProjectCard = ({
             Technologies Used: {projectTech}
           </h6>
           <p className="card-text">{projectSummary}</p>
-          <a href={githubLink} target="_blank" className="card-link">
+          <a
+            href={githubLink}
+            target="_blank"
+            rel="noreferrer"
+            className="card-link"
+          >
             {iconLinks[0].icon}
           </a>
           <a
             className="text-decoration-none"
             href={liveLink}
             target="_blank"
+            rel="noreferrer"
             className="card-link px-2"
           >
             Live

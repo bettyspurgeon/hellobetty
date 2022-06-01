@@ -46,6 +46,7 @@ function MyApp({ Component, pageProps }) {
             <a
               className="text-secondary fs-4 px-3"
               target="_blank"
+              rel="noreferrer"
               href={icon.link}
             >
               {icon.icon}
@@ -63,6 +64,7 @@ function MyApp({ Component, pageProps }) {
               <a
                 className="text-secondary px-1"
                 target="_blank"
+                rel="noreferrer"
                 href={icon.link}
               >
                 {icon.icon}
