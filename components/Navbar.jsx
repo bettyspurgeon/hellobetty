@@ -17,7 +17,7 @@ export const Navbar = ({ navIcon, navbarContent, icons, copyright }) => {
           </button>
           <div
             className="offcanvas offcanvas-end text-white bg-dark"
-            tabindex="-1"
+            tabIndex="-1"
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
           >
