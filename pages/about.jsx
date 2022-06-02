@@ -9,7 +9,7 @@ export default function About() {
             <h2 className="fs-4 text-secondary">
               I am a Full Stack web developer from Canada living in Luxembourg.
             </h2>
-            <Image src="./about-image.png" alt="" />
+            <Image src="/about-image.png" alt="" width={250 + "px"} height={250 + "px"} />
           </div>
           <div className="col-6 mx-auto px-lg-3">
             <div id="bio-container">
@@ -229,9 +229,7 @@ export default function About() {
         </p>
       </main>
       <style jsx>{`
-        img {
-          width: 15rem;
-        }
+        
       `}</style>
     </>
   );

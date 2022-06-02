@@ -39,7 +39,7 @@ function MyApp({ Component, pageProps }) {
         }
         navbarContent={navbarItems.map((item) => {
           return (
-            <li className="px-2">
+            <li className="px-2" id={`${item.key}`}>
               <a className="nav-link" href={item.link}>
                 {item.name}
               </a>
