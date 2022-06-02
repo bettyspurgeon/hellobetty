@@ -53,6 +53,7 @@ function MyApp({ Component, pageProps }) {
               target="_blank"
               rel="noreferrer"
               href={icon.link}
+              key={icon.key}
             >
               {icon.icon}
             </a>
@@ -71,6 +72,7 @@ function MyApp({ Component, pageProps }) {
                 target="_blank"
                 rel="noreferrer"
                 href={icon.link}
+                key={icon.key}
               >
                 {icon.icon}
               </a>
